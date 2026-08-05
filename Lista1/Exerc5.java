@@ -14,12 +14,12 @@ public class Exerc5 {
             Utilize divisão inteira e o operador de resto da divisão %. */
 
     public static void main(String[] args) {
-        int soma, algarismo1, algarismo2, algarismo3;
-        
+        int numero, soma, algarismo1, algarismo2, algarismo3;
+
         Scanner scanner = new Scanner(System.in);
 
         System.out.print("Digite um número inteiro positivo de três algarismos: ");
-        int numero = scanner.nextInt();
+        numero = scanner.nextInt();
 
         algarismo1 = numero / 100;
         System.out.println("Algarismo 1: " + algarismo1);
