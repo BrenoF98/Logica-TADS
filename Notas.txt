@@ -1,0 +1,41 @@
+////////////////// original config
+
+{
+    "gitlens.ai.model": "vscode",
+    "gitlens.ai.vscode.model": "copilot:gpt-4o-mini",
+    "redhat.telemetry.enabled": true,
+    "git.confirmSync": false,
+    "git.autofetch": true,
+    "[java]": {
+        "editor.defaultFormatter": "redhat.java"
+    },
+    "explorer.confirmDelete": false
+}
+
+////////////// sem auto complite
+
+{
+    "gitlens.ai.model": "vscode",
+    "gitlens.ai.vscode.model": "copilot:gpt-4o-mini",
+    "redhat.telemetry.enabled": true,
+    "git.confirmSync": false,
+    "git.autofetch": true,
+    "[java]": {
+        "editor.defaultFormatter": "redhat.java"
+    },
+    "java.completion.enabled": true,
+    "java.completion.maxResults": 50,
+    "editor.inlineSuggest.enabled": false,
+    "editor.quickSuggestions": {
+        "other": true,
+        "comments": false,
+        "strings": false
+    },
+    "editor.quickSuggestionsDelay": 0,
+    "editor.suggestOnTriggerCharacters": true,
+    "editor.acceptSuggestionOnEnter": "off",
+    "editor.snippetSuggestions": "none",
+    "editor.parameterHints.enabled": true,
+    "editor.wordBasedSuggestions": "matchingDocuments",
+    "explorer.confirmDelete": false
+}
