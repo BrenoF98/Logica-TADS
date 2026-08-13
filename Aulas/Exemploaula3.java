@@ -23,10 +23,11 @@ public class Exemploaula3{
     // qual o nome? nuemro. 
     // Qual o tamanhã 4 byte {-2.5b até 2.5b}.
     
-    String html; 
+/*     String html; 
     String nome;
     String a; // Evitar colocar variaveis sem nome ligado ao proposito. 
-    
+*/
+
     // Há duas operações com variaveis. 
 
     // atribuir -> nome da variavel = valor a ser a tribuido. 
