@@ -21,7 +21,7 @@ public class Exerc1 {
         numero = scanner.nextInt(); // lê o número digitado pelo usuário e armazena na variável numero
 
         anterior = numero - 1;
-        posterior = numero + 2;
+        posterior = numero + 1;
 
         System.out.println("O anteiro é: " + anterior);
         System.out.println("O número foi: " + numero);
