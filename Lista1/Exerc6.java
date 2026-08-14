@@ -20,12 +20,11 @@ public class Exerc6 {
         numero = scanner.nextInt();
 
         algarismo1 = numero / 10;
-        System.out.println("Algarismo 1: " + algarismo1);
         algarismo2 = numero % 10;
-        System.out.println("Algarismo 2: " + algarismo2);
-
         numeroInvertido = (algarismo2 * 10) + algarismo1;
 
+        System.out.println("Algarismo 1: " + algarismo1);
+        System.out.println("Algarismo 2: " + algarismo2);
         System.out.println("Número invertido: " + numeroInvertido);
 
         scanner.close();
