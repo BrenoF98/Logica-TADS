@@ -53,13 +53,13 @@ public class Exerc36 {
         resto = (resto) % 2;
         valor1 = (resto) / 1;
 
-        System.out.println("Cédulas de R$ 100: " + valor100);
-        System.out.println("Cédulas de R$ 50: " + valor50);
-        System.out.println("Cédulas de R$ 20: " + valor20);
-        System.out.println("Cédulas de R$ 10: " + valor10);
-        System.out.println("Cédulas de R$ 5: " + valor5);
-        System.out.println("Cédulas de R$ 2: " + valor2);
-        System.out.println("Cédulas de R$ 1: " + valor1);
+        System.out.println("Cédulas de   R$ 100: " + valor100);
+        System.out.println("Cédulas de    R$ 50: " + valor50);
+        System.out.println("Cédulas de    R$ 20: " + valor20);
+        System.out.println("Cédulas de    R$ 10: " + valor10);
+        System.out.println("Cédulas de     R$ 5: " + valor5);
+        System.out.println("Cédulas de     R$ 2: " + valor2);
+        System.out.println("Cédulas de     R$ 1: " + valor1);
 
         scanner.close();
 

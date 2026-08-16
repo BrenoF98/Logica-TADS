@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class Arr {
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
+        Scanner scanner = new Scanner(System.in); 
 
         int[] numeros = new int[5];
         int soma = 0;
@@ -33,7 +33,7 @@ public class Arr {
         System.out.println("A soma dos números é: " + soma);
 
         double media = (double) soma / numeros.length;
-        System.out.println("A média dos números é: " + media);
+        System.out.println("A média dos números é: " + media); //
 
       scanner.close(); // Fechar o scanner para liberar recursos
     }
