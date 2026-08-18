@@ -1,0 +1,14 @@
+    // varias condicoes associadas (classificacao, agrupamentos)
+
+if (valor) {
+
+    } else if (outro valor) {
+
+    } else if (outro valor) {
+
+}
+... else if tantos quantos forem necessarios
+// opcionalmente
+} else {
+
+}
