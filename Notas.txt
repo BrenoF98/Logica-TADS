@@ -1,3 +1,12 @@
+    public static void main(String[] args) {
+        Scanner entrada = new Scanner(System.in);
+
+        
+        entrada.close();
+    }
+
+
+
 ////////////////// original config
 
 {
@@ -37,5 +46,32 @@
     "editor.snippetSuggestions": "none",
     "editor.parameterHints.enabled": true,
     "editor.wordBasedSuggestions": "matchingDocuments",
+    "explorer.confirmDelete": false
+}
+
+Com snippetSuggestions em ia
+
+{
+    "gitlens.ai.model": "vscode",
+    "gitlens.ai.vscode.model": "copilot:gpt-4o-mini",
+    "redhat.telemetry.enabled": true,
+    "git.confirmSync": false,
+    "git.autofetch": true,
+    "[java]": {
+        "editor.defaultFormatter": "redhat.java",
+        "editor.snippetSuggestions": "top"
+    },
+    "java.completion.enabled": true,
+    "java.completion.maxResults": 50,
+    "editor.inlineSuggest.enabled": false,
+    "editor.quickSuggestions": {
+        "other": true,
+        "comments": false,
+        "strings": false
+    },
+    "editor.quickSuggestionsDelay": 0,
+    "editor.suggestOnTriggerCharacters": true,
+    "editor.acceptSuggestionOnEnter": "off",
+    "editor.snippetSuggestions": "none",
     "explorer.confirmDelete": false
 }
