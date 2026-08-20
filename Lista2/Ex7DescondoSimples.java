@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Ex7 {
+public class Ex7DescondoSimples {
 
     /* 7. Desconto simples
 

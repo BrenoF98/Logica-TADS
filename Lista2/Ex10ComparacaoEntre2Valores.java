@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Ex10 {
+public class Ex10ComparacaoEntre2Valores {
 
     /* 10. Comparação entre dois valores
 Leia dois números inteiros e informe qual deles é o maior. 

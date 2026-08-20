@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Ex1 {
+public class Ex1PositivoOuNegativo {
     /* Positivo ou negativo
     
     Leia um número inteiro e informe se ele é positivo ou negativo. Considere o zero como positivo.

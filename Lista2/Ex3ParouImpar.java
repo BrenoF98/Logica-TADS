@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Ex3 {
+public class Ex3ParouImpar {
 /* Par ou ímpar
 
 Leia um número inteiro e informe se ele é par ou ímpar.

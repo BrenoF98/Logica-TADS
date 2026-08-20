@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Ex9 {
+public class Ex9SenhaSimples {
 
     /* 9. Senha simples
 Leia uma senha inteira. 

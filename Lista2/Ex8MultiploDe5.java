@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Ex8 {
+public class Ex8MultiploDe5 {
 
     /* 8. Número múltiplo de 5
 Leia um número inteiro e informe se ele é ou não múltiplo de 5.

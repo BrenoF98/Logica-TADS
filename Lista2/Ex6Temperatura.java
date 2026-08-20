@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Ex6 {
+public class Ex6Temperatura {
 /* 6. Temperatura
 
 Leia uma temperatura em graus Celsius. Informe "Temperatura elevada" 

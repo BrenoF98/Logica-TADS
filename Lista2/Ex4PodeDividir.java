@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Ex4 {
+public class Ex4PodeDividir {
 
     /* Pode dividir?
     

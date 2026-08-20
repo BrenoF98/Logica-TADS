@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Ex2 {
+public class Ex2MaiorDeIdade {
 
         /* Maior de idade
     

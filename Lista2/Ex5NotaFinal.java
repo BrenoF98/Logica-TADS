@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Ex5 {
+public class Ex5NotaFinal {
 
     /* 5. Nota suficiente
 
