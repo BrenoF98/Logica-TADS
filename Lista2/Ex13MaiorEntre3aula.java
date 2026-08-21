@@ -13,7 +13,7 @@ public class Ex13 {
         num2 = entrada.nextInt();
         num3 = entrada.nextInt();
 
-        if (num1 != num2 && num1 != num3){
+        if (num1 != num2 || num1 != num3){
 
             if (num1 >= num2 && num1 >= num3){
 
