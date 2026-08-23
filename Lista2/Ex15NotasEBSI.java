@@ -22,17 +22,17 @@ public class Ex15NotasEBSI {
         float nota = entrada.nextFloat();
         if (nota >= 0 && nota <= 10) {
             if (nota >= 9) {
-                System.err.println("Excelente");
+                System.out.println("Excelente");
             } else if (nota >= 7) {
                 
-                System.err.println("Bom");
+                System.out.println("Bom");
 
             } else if (nota >= 6) {
                 
-                System.err.println("Suficiente");
+                System.out.println("Suficiente");
             }else {
 
-                System.err.println("Insuficiente");
+                System.out.println("Insuficiente");
                 
             }
 

@@ -24,57 +24,58 @@ public class Ex38Seguro {
      */
     public static void main(String[] args) {
 
-        int idade, tempHabilit;
-        float valorBase, valorFinal, acresIdade, acresTempHabilit, percentualIdade, percentualTempHabilit;
+        float valorBase, valorFinal, acresIdade, acresTempHabilit, percentualIdade, percentualTempHabilit, idade, tempHabilit;
 
         Scanner entrada = new Scanner(System.in);
 
-        System.out.println("Informe sua idade: ");
-        idade = entrada.nextInt();
+        System.out.println("Informe sua idade: (considere 18 anos e 6 mêses como 18,5 anos) ");
+        idade = entrada.nextFloat();
 
-        System.out.println("Informe o tempo que tem habilitação: ");
-        tempHabilit = entrada.nextInt();
+        if (idade >= 18.5) {
 
-        System.out.println("Informe o valor vabe do seguro: ");
-        valorBase = entrada.nextFloat();
+            System.out.println("Informe o tempo que tem habilitação: ");
+            tempHabilit = entrada.nextFloat();
 
-        /*
-         * se idade menor 21 percentualIdade = 20%
-         * Se idade menor 25 percentualIdade = 10%
-         * se idade maior igual 25 = 0%
-         * 
-         * Se tempHabilit menor 2 percentualTempHabilit = 15%
-         * 
-         */
+            if (tempHabilit < (idade - 18.5)) { // considerando 5 meses minimos para fazer a carteira.
 
-        if (idade > 0 && tempHabilit > 0 && tempHabilit < idade && valorBase > 0) {
-            if (tempHabilit < 2) {
-                percentualTempHabilit = 15;
+                System.out.println("Informe o valor base do seguro: ");
+                valorBase = entrada.nextFloat();
+                System.out.println("");
+                if (valorBase > 0) {
+
+                    if (tempHabilit < 2) {
+                        percentualTempHabilit = 15;
+                    } else {
+                        percentualTempHabilit = 0;
+                    }
+                    if (idade < 21) {
+                        percentualIdade = 20;
+
+                    } else if (idade < 25) {
+                        percentualIdade = 10;
+
+                    } else {
+                        percentualIdade = 0;
+
+                    }
+
+                    acresTempHabilit = valorBase * (percentualTempHabilit / 100);
+                    acresIdade = valorBase * (percentualIdade / 100);
+                    valorFinal = valorBase + acresIdade + acresTempHabilit;
+                    System.out.println("Acrescimo pela idade: " + acresIdade+ "\n");
+                    System.out.println("Acrescimo por tempo de habilitação: " + acresTempHabilit+ "\n");
+                    System.out.println("O valor final é: " + valorFinal+ "\n");
+                } else {
+                    System.out.println("Valor base invalido!"+ "\n");
+                }
             } else {
-                percentualTempHabilit = 0;
+                System.out.println("Tempo de habilitação invalido!"+ "\n");
             }
-            if (idade < 21) {
-                percentualIdade = 20;
-
-            } else if (idade < 25) {
-                percentualIdade = 10;
-
-            } else {
-                percentualIdade = 0;
-
-            }
-            acresTempHabilit = valorBase * (percentualTempHabilit / 100);
-            acresIdade = valorBase * (percentualIdade / 100);
-            valorFinal = valorBase + acresIdade + acresTempHabilit;
-            System.out.println("Acrescimo pela idade " + acresIdade);
-            System.out.println("Acrescimo por tempo de habilitação " + acresTempHabilit);
-            System.out.println("O valor final é: " + valorFinal);
 
         } else {
-            System.out.println("Um ou mais valores não são validos! ");
-
+            System.out.println("Idade invalida!"+ "\n");
         }
-
         entrada.close();
     }
+
 }

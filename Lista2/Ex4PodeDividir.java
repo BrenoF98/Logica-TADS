@@ -11,19 +11,19 @@ public class Ex4PodeDividir {
         
         Scanner entrada = new Scanner(System.in);
 
-        int numero1, numero2;
+        float numero1, numero2;
         float resultado;
 
         System.out.print("Digite dois números inteiros a serem divididos: ");
 
-        numero1 = entrada.nextInt();
-        numero2 = entrada.nextInt();
+        numero1 = entrada.nextFloat();
+        numero2 = entrada.nextFloat();
 
         if (numero2 == 0){
             
             System.out.println("NÃO É POSSIVEL RELAIZAR DIVIZÃO POR 0 (ZERO)!");
         }else {
-            resultado = (float) numero1 / numero2;
+            resultado = numero1 / numero2;
             System.out.println(numero1 + " / " + numero2 + " = " + resultado);
         }
 

@@ -20,7 +20,7 @@ public class Ex1PositivoOuNegativo {
             
             System.out.println("O número: " + numero + " é positivo!");
         }else {
-            System.out.println("O número: " + numero + " é positivo!");
+            System.out.println("O número: " + numero + " é é negativo!");
         }
 
 
