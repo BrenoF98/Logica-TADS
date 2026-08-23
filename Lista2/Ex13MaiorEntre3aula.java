@@ -30,7 +30,8 @@ public class Ex13MaiorEntre3aula {
 
                 System.out.println("O número " + num3 + " é o maior!");
             }
-            }else { System.out.println("Os números são igua!");
+            }else { 
+                System.out.println("Os números são igua!");
 
             }
             
