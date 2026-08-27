@@ -19,10 +19,10 @@ public class Ex19ValidacaoUsuarioSenha {
 
         System.out.println("Usuario: ");
 
-        usuario = entrada.nextLine();
+        usuario = entrada.next();
         if (usuario.equals("admin")) {
             System.out.println("Senha: ");
-            senha = entrada.nextLine();
+            senha = entrada.next();
             if (senha.equals("java123")) {
 
                 System.out.println("Acesso permitido!");

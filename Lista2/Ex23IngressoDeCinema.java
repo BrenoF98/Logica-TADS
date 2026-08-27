@@ -19,37 +19,44 @@ public class Ex23IngressoDeCinema {
 
         Scanner entrada = new Scanner(System.in);
 
-        float idade, precoNormalIngresso = 0, percentDesconto;
+        float idade, precoNormalIngresso = 0, percentDesconto = 0, valorFinal = 0;
+        String estuda;
 
         System.out.println("Informe a sua idade: ");
         idade = entrada.nextFloat();
 
         if (idade > 0) {
-            String estuda;
-            System.out.println("Você é estaudando (S -> SIM ou N -> NÃO) ");
-            estuda = entrada.next();
+
             System.out.println("Preço inteiro do ingresso: ");
             precoNormalIngresso = entrada.nextFloat();
 
             if (idade < 12) {
                 percentDesconto = .5f;
+
             } else if (idade >= 12 && idade < 60) {
+
+                System.out.println("Você é estaudando (S -> SIM ou N -> NÃO) ");
+                estuda = entrada.next();
 
                 if (estuda.equalsIgnoreCase("S")) {
                     percentDesconto = 0.5f;
-                    
-                }else if (estuda.equalsIgnoreCase("N")) {
+
+                } else if (estuda.equalsIgnoreCase("N")) {
                     percentDesconto = 0;
-                    
-                } else if (idade >= 60) {
-                    
+
                 } else {
                     System.out.println("ERRO! Digite S ou N");
                 }
-                
+
+            } else if (idade >= 60) {
+                percentDesconto = 0.5f;
             }
 
-        }else {
+            valorFinal = precoNormalIngresso - (precoNormalIngresso * percentDesconto);
+
+            System.out.println("O valor final é: " + valorFinal);
+
+        } else {
             System.out.println("A idade invalida!");
         }
 
