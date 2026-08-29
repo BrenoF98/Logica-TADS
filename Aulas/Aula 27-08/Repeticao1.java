@@ -8,11 +8,11 @@ public class Repeticao1 {
         int numero = 0, contador = 10;
 
         while (contador >= numero) {
-            
+
             System.out.println(contador);
             contador--;
             // bloco a ser repetido!
         }
-
+        entrada.close();
     }
 }

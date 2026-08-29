@@ -21,5 +21,6 @@ public class Repeticao6 {
             System.out.println("Senha correta!!!!!!!");
             
         }
+        entrada.close();
     }
 }

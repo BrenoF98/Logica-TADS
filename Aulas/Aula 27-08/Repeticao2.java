@@ -15,7 +15,7 @@ public class Repeticao2 {
             
             contador++;
         }
-        
+        entrada.close();
 
     }
 }

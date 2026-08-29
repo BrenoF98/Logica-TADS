@@ -23,5 +23,6 @@ public class Repeticao4 {
         }
 
         System.out.println(quantidadeValores + " números são maior ou igual a 7");
+        entrada.close();
     }
 }

@@ -8,7 +8,7 @@ public class Repeticao5 {
 
         // calcule o somatorio do intervado x,y onde x e y são informados usuario.
 
-        int valorX = entrada.nextInt(), valorY = entrada.nextInt(), somatorio = 0, valorAtualX = 0;
+        int valorX = entrada.nextInt(), valorY = entrada.nextInt(), somatorio = 0;
 
         System.out.println("A soma de " + valorX + " até " + valorY);
 
@@ -22,6 +22,6 @@ public class Repeticao5 {
         }
 
         System.out.println(somatorio);
-
+        entrada.close();
     }
 }

@@ -76,7 +76,7 @@ public class Ex30VerificandoTriangulos {
             // se valido informe se Equilátero ou Isósceles ou Escaleno
 
         }
-
+        entrada.close();
     }
 
 }

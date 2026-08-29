@@ -6,7 +6,7 @@ public class Repeticao3 {
 
         Scanner entrada = new Scanner(System.in);
 
-        // receba 2 (a e b) valores e vá de a para b
+        // receba 2 (a e b) valores e vé de a para b
         System.out.println("Informe um numero inteiro");
         int valorA = entrada.nextInt(), valorB = entrada.nextInt();
 
@@ -26,7 +26,7 @@ public class Repeticao3 {
                 valorA--;
             }
         }
-
+        entrada.close();
     }
 
 }
