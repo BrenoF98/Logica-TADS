@@ -13,7 +13,7 @@ public class Ex50SistemaCompletoPedidoCupomEntrega {
         float valorDescontoTipoCliente = 0, valorDescontoCupomAplicavel = 0, descontoTipoCiente = 0, descontoCupom = 0,
                 valorfrete = 0, valorComDescontosAplicados = 0, valorFinal = 0;
 
-        System.out.println("Informe o valor do produto: ");
+        System.out.println("Informe o valor do produto: (reais)");
         valorProduto = entrada.nextFloat();
 
         // flag
@@ -22,7 +22,7 @@ public class Ex50SistemaCompletoPedidoCupomEntrega {
 
         if (valorProduto > 0) { // certifica se valor do produto é adequado
 
-            System.out.println("Informe a distancia da entrega ");
+            System.out.println("Informe a distancia da entrega: (km)");
             distanciaEntrega = entrada.nextFloat();
 
             if (distanciaEntrega >= 0) { // cerifica se distancia é adequada
