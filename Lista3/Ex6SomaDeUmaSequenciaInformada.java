@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class Ex6SomaDeUmaSequenciaInformada {
     public static void main(String[] args) {
-        
+
         /*
          * 6. Soma de uma sequência informada
          * Leia uma quantidade n de números que serão digitados pelo usuário. Em
@@ -30,7 +30,7 @@ public class Ex6SomaDeUmaSequenciaInformada {
                 contador++;
 
                 System.out.println("Escreva um numero real: ");
-                numRealInformado = entrada.nextInt();
+                numRealInformado = entrada.nextFloat();
 
                 somaDetodosReaisInformados += numRealInformado;
 
