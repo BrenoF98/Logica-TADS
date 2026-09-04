@@ -73,9 +73,14 @@ public class Ex29AnaliseDosDigitosDeVariosNumeros {
 
                     }
 
+                    System.out.println("Digito: " + digito);
+                    System.out.println("Base: " + base);
+
                     resto = guardaNumeroInformado % base;
                     soma += digito;
                     base /= 10;
+
+                    System.out.println("Resto: " + resto);
 
                     if (digito % 2 == 0) {
                         par++;
@@ -93,6 +98,8 @@ public class Ex29AnaliseDosDigitosDeVariosNumeros {
                     if (menor > digito) {
                         menor = digito;
                     }
+
+
 
                 }
 

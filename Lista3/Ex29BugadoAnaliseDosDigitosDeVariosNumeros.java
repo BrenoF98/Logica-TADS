@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class BugadoEx29AnaliseDosDigitosDeVariosNumeros {
+public class Ex29BugadoAnaliseDosDigitosDeVariosNumeros {
 
     /*
      * 29. Análise dos dígitos de vários números
