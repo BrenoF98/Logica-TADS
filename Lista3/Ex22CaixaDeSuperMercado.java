@@ -65,5 +65,8 @@ public class Ex22CaixaDeSuperMercado {
         System.out.println("Produto de maior valor: " + maior);
         System.out.println("Produto de menor valor: " + menor);
         System.err.println("\nQuantidade de produtos com valor maior que 100: " + contadorMaior100 + "\n");
+        
+        entrada.close();
     }
+
 }
