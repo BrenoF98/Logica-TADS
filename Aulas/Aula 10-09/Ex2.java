@@ -1,7 +1,6 @@
 import java.util.Random;
 import java.util.Scanner;
 
-import javax.xml.validation.Validator;
 
 public class Ex2 {
 

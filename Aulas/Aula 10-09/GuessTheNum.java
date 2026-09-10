@@ -30,5 +30,6 @@ public class GuessTheNum {
         }
 
         }
+        entrada.close();
     }
 }
