@@ -13,5 +13,6 @@ public class Fatorial {
 
         }
         System.out.printf("%d! =  %d%n", numeroN, fatorial);
+        sc.close();
     }
 }
