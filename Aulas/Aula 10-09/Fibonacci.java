@@ -13,7 +13,6 @@ public class Fibonacci {
                 
                 anterior = fibonacci - anterior;
                 fibonacci = anterior + fibonacci;
-                
 
         }
     }
