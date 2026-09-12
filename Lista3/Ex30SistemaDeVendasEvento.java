@@ -88,11 +88,11 @@ public class Ex30SistemaDeVendasEvento {
 
                             if (quantIngresSolic != 0) {
 
-                                System.out.println("\n++++++Tipo de cliente++++++\n");
+                                System.out.println("\n ++++++ Tipo de cliente ++++++ \n");
 
-                                System.out.println("1 --> NOMRAL ");
-                                System.out.println("2 --> ESTUDANTE ");
-                                System.out.println("3 --> IDOSO ");
+                                System.out.println("NOMRAL________-> 1");
+                                System.out.println("ESTUDANTE_____-> 2");
+                                System.out.println("IDOSO_________-> 3");
 
                                 System.out.print("\nDigite o número referente a sua condição: ");
 
@@ -136,7 +136,7 @@ public class Ex30SistemaDeVendasEvento {
                             }
 
                             System.out.print("\nVenda realizada!\n");
-                            System.out.println("Preço da compra: " + precoFinal);
+                            System.out.printf("Preço da compra: %.2f\n", precoFinal);
 
                         }
 
@@ -154,13 +154,13 @@ public class Ex30SistemaDeVendasEvento {
 
                 System.out.println("Quantidade invalida!");
             }
-            System.out.println("\n================ RELATÓRIO FINAL ================");
+            System.out.println("\n================ RELATÓRIO FINAL ================\n");
             System.out.println("Quantidade de ingressos vendidos: " + quantIngresVentido);
             System.out.println("Quantidade de ingressos restantes: " + quantIngresDisp);
             System.out.println("Número de vendas realizadas: " + quantVendasRealizadas);
             System.out.println("Quantidade de ingressos vendidos com meia-entrada: " + quantVendMeia);
-            System.out.println("Valor total arrecadado: " + valorTotalArrecadado);
-            System.out.println("Maior valor registrado em uma única venda: " + maiorValor1Venda);
+            System.out.printf("Valor total arrecadado: %.2f\n", valorTotalArrecadado);
+            System.out.printf("Maior valor registrado em uma única venda: %.2f\n", maiorValor1Venda);
         } else {
             System.out.println("Valor invalido!");
         }
