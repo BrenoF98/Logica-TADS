@@ -155,6 +155,7 @@ public class Ex30SistemaDeVendasEvento {
                 System.out.println("Quantidade invalida!");
             }
             System.out.println("\n================ RELATÓRIO FINAL ================\n");
+            
             System.out.println("Quantidade de ingressos vendidos: " + quantIngresVentido);
             System.out.println("Quantidade de ingressos restantes: " + quantIngresDisp);
             System.out.println("Número de vendas realizadas: " + quantVendasRealizadas);
