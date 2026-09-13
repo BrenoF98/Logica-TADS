@@ -439,6 +439,47 @@ Ao final, informe:
 
 ---
 
+### Sistema de Triagem e Faturamento de Clínica Veterinária
+
+$Exercicio$ $de$ $IA$.
+
+Uma clínica veterinária deseja automatizar o cálculo e a auditoria dos seus atendimentos diários. O sistema deve receber os dados de cada paciente até que o usuário decida encerrar o expediente. A leitura do valor `0` para o peso do animal encerra a entrada de dados e não deve participar dos cálculos. Valores negativos de peso são inválidos, mas não encerram o programa.
+
+Para cada animal que chega à clínica, leia **exatamente nesta ordem**:
+
+* peso do animal (em kg);
+* tipo do paciente ("CACHORRO", "GATO" ou "AVE");
+* nível de urgência ("BAIXA" ou "ALTA").
+
+#### Regras
+
+1. O peso informado deve ser estritamente maior que zero. O tipo do paciente e o nível de urgência devem corresponder exatamente às opções informadas.
+2. **Validação Múltipla:** Caso o atendimento não atenda às condições da regra 1, ele **não deve ser contabilizado**. O sistema deve exibir a mensagem `"Atendimento Recusado!"` e listar, na mesma tentativa, **todos os motivos** que inviabilizaram o registro (peso inválido, tipo de paciente desconhecido e/ou urgência inválida).
+
+
+3. Para atendimentos válidos, o custo base da consulta é de R$ 150,00.
+4. Aplique as regras de preço de acordo com o tipo:
+* **CACHORRO:** paga o valor base. No entanto, se o peso for superior a 20 kg, acrescente uma taxa de porte de R$ 30,00 ao valor base.
+* **GATO:** recebe 15% de desconto sobre o valor base.
+* **AVE:** paga um valor fixo promocional de R$ 90,00 (este valor substitui o custo base).
+
+
+5. Após o cálculo do tipo, verifique a urgência: se for classificada como **"ALTA"**, acrescente 20% de taxa sobre o valor final já calculado no passo anterior.
+6. Tipos de pacientes ou urgências diferentes das opções estipuladas são inválidos e o cálculo final não deve ser realizado. Textos devem ser comparados ignorando maiúsculas e minúsculas.
+
+
+7. Após cada atendimento válido, o programa deve voltar a solicitar o peso de um novo animal.
+
+Ao final, informe:
+
+* quantidade total de animais atendidos com sucesso;
+* quantidade de atendimentos de urgência "ALTA";
+* quantidade de tentativas de atendimento recusadas por dados inválidos;
+* valor total arrecadado no dia pela clínica;
+* maior valor cobrado em uma única consulta válida.
+
+---
+
 ## Observações para resolução
 
 Nos exercícios desta lista, procure identificar antes de escrever o código:
