@@ -23,6 +23,6 @@ public class Cronometro {
                 segundos = 60;
             }
         }
-
+        sc.close();
     }
 }

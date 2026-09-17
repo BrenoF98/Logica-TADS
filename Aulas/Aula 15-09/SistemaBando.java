@@ -63,5 +63,6 @@ public class SistemaBando {
                 System.out.println("ERRO\nInforme uma opção valida!");
             }
         }
+        sc.close();
     }
 }
