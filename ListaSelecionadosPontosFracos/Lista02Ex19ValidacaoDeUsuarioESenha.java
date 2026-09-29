@@ -1,5 +1,3 @@
-package ListaSelecionadosPontosFracos;
-
 import java.util.Scanner;
 
 public class Lista02Ex19ValidacaoDeUsuarioESenha {
