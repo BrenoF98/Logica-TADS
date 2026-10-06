@@ -66,6 +66,10 @@ public class Ex22MenuDeConversao {
 
                     break;
 
+                case 0:
+                System.out.println("Saindo...");
+                break;
+
                 default:
                     System.out.println("\nOpção inválida!");
                     break;
