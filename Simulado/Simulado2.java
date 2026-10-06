@@ -18,21 +18,19 @@ public class Simulado2 {
             numero = sc.nextInt();
             boolean isQuadPerf = false;
 
+            if (numero <= 0) break;
 
-            if (numero > 0) {
-                for (int i = 1; i < numero; i++) { // um numero multiplicado por ele mesmo sempre vai ser pelo
-                                                         // menos a medade do seu quadrado.
-                    quadrado = i * i;
-                    if (numero == quadrado) {
-                        System.out.printf("\n%d é quadrado perfeito, sua raiz é: %d", numero, i);
-                        isQuadPerf = true;
-                    }
-
+            for (int i = 1; i < numero ; i++) { 
+                quadrado = i * i;
+                if (numero == quadrado) {
+                    System.out.printf("\n%d é quadrado perfeito, sua raiz é: %d", numero, i);
+                    isQuadPerf = true;
                 }
-                if (!isQuadPerf) {
-                    System.out.printf("\n%d não é quadrado perfeito.\n", numero);
 
-                }
+            }
+            if (!isQuadPerf) {
+                System.out.printf("\n%d não é quadrado perfeito.\n", numero);
+
             }
 
         } while (numero > 0);

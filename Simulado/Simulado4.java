@@ -24,9 +24,7 @@ public class Simulado4 {
             System.out.println("Informe 3 números positivos (ou 0 para sair): ");
             num1 = sc.nextInt();
             
-            if (num1 == 0) {
-                break;
-            }
+            if (num1 == 0) break;
             
             num2 = sc.nextInt();
             num3 = sc.nextInt();
