@@ -299,3 +299,5 @@ Antes de programar, identifique:
 Os exercicios desta lista nao exigem vetores, matrizes, colecoes, classes, objetos ou metodos criados pelo aluno. Cada solucao deve concentrar-se em variaveis simples, condicionais e estruturas de repeticao.
 
 Bom estudo e boa programacao!
+
+![alt text](image.png)
