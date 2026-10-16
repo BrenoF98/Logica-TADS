@@ -21,20 +21,20 @@ public class SomaN {
         }
 
         int menor, maior;
-        for (int k = 0; k < v.length; k++) {
-            System.out.printf("|%02d", v[k]);
-        }
-        System.out.print("| \n");
         for (int i = 0; i < v.length; i++) {
             for (int j = i + 1; j < v.length; j++) {
 
-                System.out.printf("Comparado: %d Posi: %d | Comparando: %d Posi: %d\n\n", v[i], i, v[j], j);
+                System.out.printf("Comparado: %d Posi: %d | Comparando: %d Posi: %d\n", v[i], i, v[j], j);
                 for (int k = 0; k < v.length; k++) {
                     System.out.printf("|%02d", v[k]);
                 }
                 System.out.print("| \n");
+                for (int k = 0; k < v.length; k++) {
+                    System.out.printf("|%02d", k);
+                }
+                System.out.print("| \n\n");
                 if (v[i] > v[j]) {
-                    
+
                     menor = v[j];
                     maior = v[i];
 
@@ -45,6 +45,13 @@ public class SomaN {
             }
 
         }
-
+        for (int k = 0; k < v.length; k++) {
+            System.out.printf("|%02d", v[k]);
+        }
+        System.out.print("| \n");
+        for (int k = 0; k < v.length; k++) {
+            System.out.printf("|%02d", k);
+        }
+        System.out.print("| \n\n");
     }
 }
