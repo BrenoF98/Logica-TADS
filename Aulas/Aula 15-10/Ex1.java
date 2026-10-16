@@ -19,7 +19,7 @@ public class Ex1 {
         // ou
 
         // declaração e inicialização na mesma linha.
-        int[] v2 = new int[10];
+        //int[] v2 = new int[10];
 
         // valores [0] = scanner.nextInt(); escreve o valor na posição 0;
 
