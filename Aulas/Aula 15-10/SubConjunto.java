@@ -21,7 +21,7 @@ public class SubConjunto {
             boolean iguais = false;
             for (int j = 0; j < v1.length; j++) {
                 if (v2[i] == v1[j]) {
-                    System.out.printf("\n%d = %d", v2[i], v1[j]);
+                    //System.out.printf("\n%d = %d", v2[i], v1[j]);
                     contIguais++;
                     iguais = true;
                     break;
