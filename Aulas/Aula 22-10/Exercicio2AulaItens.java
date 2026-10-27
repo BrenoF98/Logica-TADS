@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Exercicio2Aula {
+public class Exercicio2AulaItens {
     public static void main(String[] args) {
 
         Scanner scanner = new Scanner(System.in);
@@ -18,9 +18,19 @@ public class Exercicio2Aula {
          * todo.
          */
 
-        String[] item = { "arroz", "feijao", "Macarrao", "iogurte" };
+        String[] item = { 
+            "arroz", 
+            "feijao", 
+            "Macarrao", 
+            "iogurte" 
+        };
 
-        float[] precoUnidade = { 5f, 5.25f, 3.10f, 4.50f };
+        float[] precoUnidade = { 
+            5f, 
+            5.25f, 
+            3.10f, 
+            4.50f 
+        };
 
         int valorMenu, quantItem;
         int totalDeItens = 0;
@@ -39,6 +49,7 @@ public class Exercicio2Aula {
 
             System.out.print("\nInforme o numero do produto: ");
             valorMenu = scanner.nextInt();
+            
             if (valorMenu == -1)
                 break;
 

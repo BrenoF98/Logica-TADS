@@ -10,6 +10,7 @@ public class Execicio1AulaSubconjuntos {
                 if (v1[j] == v2[i]) {
                     System.out.println(v1[j] + " esta contido em v2");
                     contContidos++;
+                    break;
                 }
             }
 
