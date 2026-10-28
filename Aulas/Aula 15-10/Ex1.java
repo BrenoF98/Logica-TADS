@@ -34,11 +34,11 @@ public class Ex1 {
 
         // apenas C é vetor
 
-        int a, b, c [];
+        //int a, b, c [];
 
         // d, e, f são vetores. 
 
-        int [] d, e, f; 
+        //int [] d, e, f; 
 
 
         scanner.close();

@@ -32,8 +32,6 @@ public class Exemplo {
         // toda string é na verdade um vetor de letras. 
         
         char [] letras = sorteada.toCharArray();
-
-        scanner = new Scanner(System.in);
         
         for (int i = 0; i < letras.length; i++) {
             System.out.println("letras[" + i + "] = " + letras[i]);
