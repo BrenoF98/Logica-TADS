@@ -5,11 +5,11 @@ public class JogoDaVelha {
 
         Scanner scanner = new Scanner(System.in);
 
-        char[] tabuleiro = { // vetor que repsetrana as posições
+        char[] tabuleiro = { // vetor que armazena as posições
                 /*
-                 * 1 2 3
-                 * 4 5 6
-                 * 7 8 9
+                 * 0 1 2
+                 * 3 4 5
+                 * 6 7 8
                  */
                 ' ', ' ', ' ',
                 ' ', ' ', ' ',
@@ -29,11 +29,11 @@ public class JogoDaVelha {
                                              // sistema considera posição do vetor partindo de 0
 
             // Finalizar o jogo.
-            if (posicao == -1)
+            if (posicao == -1 || numJogadas > 9)
                 break;
 
             // erro de posição invalida.
-            if (posicao < 0 || posicao > 8 || tabuleiro[posicao] == 'O' || tabuleiro[posicao] == 'O') {
+            if (posicao < 0 || posicao > 8 || tabuleiro[posicao] == 'O' || tabuleiro[posicao] == 'X') {
                 System.out.println("Erro... Posição invalida! Tente novamente.");
 
                 // mostra o tabuleiro depois do erro.
@@ -81,7 +81,6 @@ public class JogoDaVelha {
                 if (tabuleiro[i] != ' ' && tabuleiro[i] == tabuleiro[i + 1]
                         && tabuleiro[i + 1] == tabuleiro[i + 2]) {
                     ganhou = true;
-
                     break;
                 }
             }
@@ -90,7 +89,6 @@ public class JogoDaVelha {
                 if (tabuleiro[i] != ' ' && tabuleiro[i] == tabuleiro[i + 3]
                         && tabuleiro[i + 3] == tabuleiro[i + 6]) {
                     ganhou = true;
-
                     break;
                 }
             }
@@ -118,7 +116,8 @@ public class JogoDaVelha {
 
         if (ganhou) {
             System.out.println("\n\nGanhou!");
-        }
+
+        }else {System.out.println("\n\nEmpate!");}
         scanner.close();
 
     }
