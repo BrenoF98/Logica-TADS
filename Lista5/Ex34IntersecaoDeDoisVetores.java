@@ -38,7 +38,7 @@ public class Ex34IntersecaoDeDoisVetores {
                 boolean podeAdd = true;
                 if (vetor1[i] == vetor2[j]) {
 
-                    for (int j2 = 0; j2 < vetor3.length; j2++) {
+                    for (int j2 = 0; j2 < vetor3.length && podeAdd; j2++) {
 
                         podeAdd = vetor3[j2] != vetor1[i];
 
