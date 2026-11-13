@@ -30,9 +30,7 @@ public class IgualdadeEntreLinhasDeMatriz {
                 if (iguais) {
                     System.out.println("São iguais: ");
                     System.out.println("Linha " + linha1 + " e linha " + linha2);
-                } else  { 
-                    sys
-                }
+                } 
             }
         }
 
